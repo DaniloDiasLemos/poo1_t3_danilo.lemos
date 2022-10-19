@@ -5,24 +5,24 @@
 import java.util.Scanner;
 import Second.alteraPreco;
 
-public class ex4 {
+public class exemplo4 {
     public static void main(String[] args) {
 
         String nome[] = new String[4];
-        float preco[];
+        float preco[] = new float[4];
         int qtd_estoque[] = new int[4];
         Scanner sc = new Scanner(System.in);
 
         alteraPreco alteraPreco = new alteraPreco();
 
         for (int i = 0; i < 4; i++) {
-            System.out.println("Informe o nome, o preco e a qtd. em estoque do produto 1: ");
-            nome = sc.nextLine();
-            preco = sc.nextFloat();
-            qtd_estoque = sc.nextInt();
+            System.out.println("Informe o nome, o preco e a qtd. em estoque do produto " + (i+1) +": ");
+            nome[i] = sc.nextLine();
+            preco[i] = sc.nextFloat();
+            qtd_estoque[i] = sc.nextInt();
         }
 
-        System.out.println("\nAumentando o preco em 10%% do produto 1 e 3");
+        System.out.println("\nAumentando o preco em 10% do produto 1 e 3");
         alteraPreco.altera_preco(preco[0], -110);
         alteraPreco.altera_preco(preco[2], 10);
 
