@@ -1,6 +1,6 @@
 
 /**
- * ex4
+ * ex2 - exemplo 4 clone
  */
 import java.util.Scanner;
 
