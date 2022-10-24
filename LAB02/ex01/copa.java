@@ -15,20 +15,20 @@ public class copa {
 
         Figurinha jog2 = new Figurinha();
 
-        jog1.nomeJogador = "Ronaldo";
-        jog1.dataNascimento = LocalDate.parse("1990/10/08");
-        jog1.altura = 1.70F;
-        jog1.peso = 80.6F;
-        jog1.posicao = "Volante";
-        jog1.pais = "Brasil";
+        jog2.nomeJogador = "Ronaldo";
+        jog2.dataNascimento = LocalDate.parse("1990/10/08");
+        jog2.altura = 1.70F;
+        jog2.peso = 80.6F;
+        jog2.posicao = "Volante";
+        jog2.pais = "Brasil";
 
         Figurinha jog3 = new Figurinha();
 
-        jog1.nomeJogador = "Rivaldo";
-        jog1.dataNascimento = LocalDate.parse("1890/09/01");
-        jog1.altura = 1.75F;
-        jog1.peso = 60.5F;
-        jog1.posicao = "Zagueiro";
-        jog1.pais = "Brasil";
+        jog3.nomeJogador = "Rivaldo";
+        jog3.dataNascimento = LocalDate.parse("1890/09/01");
+        jog3.altura = 1.75F;
+        jog3.peso = 60.5F;
+        jog3.posicao = "Zagueiro";
+        jog3.pais = "Brasil";
     }
 }
