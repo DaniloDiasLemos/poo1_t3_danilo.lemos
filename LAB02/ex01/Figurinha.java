@@ -1,3 +1,5 @@
+package LAB02.ex01;
+
 import java.time.LocalDate;
 
 public class Figurinha {

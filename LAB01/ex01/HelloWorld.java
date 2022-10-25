@@ -1,4 +1,4 @@
-
+package LAB01.ex01;
 /**
  * ex1
  */

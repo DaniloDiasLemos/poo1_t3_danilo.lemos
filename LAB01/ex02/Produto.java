@@ -1,4 +1,4 @@
-package produto;
+package LAB01.ex02;
 
 /**
  * altera_preco

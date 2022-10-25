@@ -1,10 +1,8 @@
-
+package LAB01.ex02;
 /**
  * ex2 - exemplo 4 clone
  */
 import java.util.Scanner;
-
-import produto.Produto;
 
 public class exemplo4 {
     public static void main(String[] args) {
