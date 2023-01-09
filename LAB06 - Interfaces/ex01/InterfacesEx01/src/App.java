@@ -24,6 +24,8 @@ public class App {
             
         }
 
+        sc.close();
+
         classificador.ordena(produtos);
         classificador.ordena(clientes);
         classificador.ordena(servicos);
